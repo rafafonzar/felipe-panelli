@@ -6,7 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Felipe Panelli</title>
+    <link rel="stylesheet" href="./assets/reset.css" class="css">
     <link rel="stylesheet" href="./assets/style.css" class="css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Duru+Sans&display=swap" rel="stylesheet">
@@ -19,9 +23,12 @@
 <body>
     <nav class="header">
         <img src="./assets/img/hamburger-menu.svg" alt="menu sign" width="24">
-        <span class="header-button">
-            Contato
-        </span>
+        <a href="#Contato">
+            <span class="header-button">
+                Contato
+            </span>
+        </a>
+
 
 
     </nav>
@@ -73,9 +80,11 @@
                             Destaques
                         </button>
                     </a>
-                    <button>
-                        Projetos
-                    </button>
+                    <a href="#Projetos">
+                        <button>
+                            Projetos
+                        </button>
+                    </a>
                 </nav>
 
             </div>
@@ -155,14 +164,13 @@
                         nesciunt
                         error doloremque dolore ipsa ducimus blanditiis? Doloribus?
                     </span>
-                    <div class="buttons-wraper">
+                    <div class="buttons-destaques-w">
                         <a href="https://youtu.be/2f5VQlC9WiU">
                             <img src="./assets/img/Youtube Button.png" alt="Button to redirect to this piece on Youtube"
                                 class="buttons-destaques">
                         </a>
                         <a href="./assets/files/Rafael Albuquerque ptbr.pdf" download>
-                            <img src="/assets/img/download-button.png" alt="Button to download the file of this piece"
-                                class="buttons-destaques">
+                            <img src="./assets/img/download-button.png" alt="Button to download the file of this piece">
                         </a>
                     </div>
                 </div>
@@ -186,14 +194,13 @@
                         nesciunt
                         error doloremque dolore ipsa ducimus blanditiis? Doloribus?
                     </span>
-                    <div class="buttons-wraper">
+                    <div class="buttons-destaques-w">
                         <a href="https://youtu.be/2f5VQlC9WiU">
                             <img src="./assets/img/Youtube Button.png" alt="Button to redirect to this piece on Youtube"
                                 class="buttons-destaques">
                         </a>
                         <a href="./assets/files/Rafael Albuquerque ptbr.pdf" download>
-                            <img src="./assets/img/Download-button.png" alt="Button to download the file of this piece"
-                                class="buttons-destaques">
+                            <img src="./assets/img/download-button.png" alt="Button to download the file of this piece">
                         </a>
                     </div>
                 </div>
@@ -201,6 +208,93 @@
         </div>
     </section>
 
-</body>
+    <br><br><br><br><br><br><br><br><br><br>
+
+    <section id="Projetos">
+        <h1 class="titulo2">
+            Projetos
+        </h1>
+        <div class="title-line">
+        </div>
+        <div class="card-projetos">
+            <div class="projetos-left">
+                <img src="https://via.placeholder.com/150x150" alt="Avatar for this project" class="avatar-projetos">
+                <span class="text-card">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta assumenda aut fuga voluptate modi
+                    vitae. Ullam, itaque pariatur aperiam laudantium recusandae officia, iusto id nemo quaerat, ea
+                    aliquam fuga expedita?
+                </span>
+
+
+            </div>
+            <div class="projetos-right">
+                <img src="https://via.placeholder.com/150x150" alt="Avatar for this project" class="avatar-projetos">
+                <span class="text-card">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus, quis. Molestiae, illum unde.
+                    Totam, fuga tempore quaerat odit similique corrupti ratione eos ad odio suscipit dolorem sunt rerum
+                    magnam nemo.
+                </span>
+            </div>
+
+        </div>
+
+    </section>
+
+    <br><br><br><br><br><br><br><br><br><br><br>
+
+    <section id="Contato">
+        <h1 class="titulo2">
+            Contato
+        </h1>
+        <div class="title-line"></div>
+        <div class="card-contato">
+            <div class="contato-left">
+                <div class="buttons-destaques-w">
+
+
+                    <div class="a-bot">
+                        <h1>
+                            Me encontre nas seguintes redes ou via e-mail
+                        </h1>
+
+                        <div class="buttons-contato-w">
+                            <div class="buttons-contato">
+                                <a href="https://facebook.com.br" class="buttons-contato-left">
+                                    <img src="./assets/img/Youtube Button.png" alt="Button to redirect to my Youtube">
+                                </a>
+                                <a href="https://youtube.com.br">
+                                    <img src="./assets/img/LinkedIn Button.png" alt="Button to redirect to my LinkedIn">
+                                </a>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contato-right">
+                <div class="container">
+                    <form action="action_page.php">
+
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                        <label for="email">E-mail</label>
+                        <input type="text" id="email" name="email" placeholder="E-mail">
+
+                        <label for="message">Your message</label>
+                        <textarea type="text" id="message" name="text_message" placeholder="Your message.."> </textarea>
+
+                        <input type="submit" value="Send">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="footer-contato">
+            
+
+        </div>
+    </section>
+    </body>
 
 </html>

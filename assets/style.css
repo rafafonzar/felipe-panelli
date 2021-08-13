@@ -7,12 +7,13 @@ body {
     margin-right: 122px;
     display: flex;
     justify-content: center;
-    margin-top: 10%;
+    margin-top: 134px;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
+    margin-top: 14px;
     margin-left: 122px;
     margin-right: 122px;
 }
@@ -132,7 +133,7 @@ button {
     height: 466px;
     width: 466;
     margin-left: 122px;
-    margin-right: 122px;
+    margin-right: 40px;
     display: flex;
     justify-content: center;
     margin-top: 10%;
@@ -176,31 +177,31 @@ button {
 }
 
 #Destaques {
-    height: 95vh;
+    height: 65vh;
     width: 100%;
 }
 
-.destaques-a {
-    height: 530px;
-    width: 460px;
-    background-color: #e7e7e7;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-}
+.buttons-destaques-w, .buttons-contato-w {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    }
 
-.destaques-b {
+.destaques-a, .destaques-b {
     height: 530px;
     width: 460px;
     background-color: #e7e7e7;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-}
+    font-family: 'Roboto';
+    }
 
 .card-destaques {
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 90px;
-    margin-top: 150px;
+    margin-top: 15vh;
     
 }
 
@@ -208,7 +209,6 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-
     position: relative;
     height: 50%;
     border-top-left-radius: 20px;
@@ -222,8 +222,11 @@ button {
 }
 
 .text-a-top {
-    background-color: white;
     position: absolute;
+    text-shadow: 1px 1px black;
+    color: white;
+    font-size: 54px;
+    font-family: 'Duru Sans', sans-serif;
 }
 
 .a-bot {
@@ -231,8 +234,99 @@ button {
     text-align: justify;
 }
 
+.a-bot {
+    margin-top: 50px;
+}
+
+
+
 .buttons-destaques {
     width: 40px;
     height: 48px;
     margin-right: 35px;
 }
+
+#Projetos {
+    height: 65vh;
+    width: 100%;
+}
+
+.card-projetos, .card-contato {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 25vh;
+    
+}
+
+.projetos-left, .projetos-right, .contato-right{
+    display: flex;
+    width: 420px;
+    height: 284px;
+    background-color:#e7e7e7;
+    border-radius: 25px;
+    font-family: 'Roboto';
+    }
+
+.avatar-projetos {
+    max-height: 150px;
+    margin: 12px;
+}
+
+.text-card {
+    margin-top: 24px;
+}
+
+#Contato {
+    height: 95vh;
+}
+
+.contato-left {
+    margin-top: 90px;
+    display: flex;
+    width: 462px;
+    height: 24px;
+}
+
+.contato-right {
+    display: flex;
+    width: 520px;
+    height: 324px;
+    background-color:#e7e7e7;
+    border-radius: 25px;
+    font-family: 'Roboto';
+  }
+
+.form {
+    display: flex;
+}
+
+.contato-left h1 {
+    font-size: 44px;
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    margin: 20px;
+    margin-top: 10%;
+    text-align: justify;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+  .container {
+     padding: 20px;
+  }
+
+  .buttons-contato-left {
+margin-right: 40px;
+  }
+
+  
