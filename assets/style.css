@@ -11,8 +11,6 @@ body {
 }
 
 .header {
-    display: flex;
-    justify-content: space-between;
     margin-top: 14px;
     margin-left: 122px;
     margin-right: 122px;
@@ -95,14 +93,14 @@ button {
     }
 
 .header-button {
-   font-size: 18px;
-   background-color: white;
-   padding: 0px 20px 0px 20px;
-   border-radius: 20px;
-   cursor: pointer;
-   margin: 2px;
-   font-family: 'Roboto', sans-serif;   
-}
+    font-size: 18px;
+    background-color: white;
+    padding: 0px 20px 0px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 2px;
+    font-family: 'Roboto', sans-serif;   
+    }
 
 .buttons {
     display: flex;
@@ -173,6 +171,7 @@ button {
     margin-right: 122px;
     width: 112px;
     display: flex;
+    padding-top: 24px;
     justify-content: space-between;
 }
 
@@ -294,7 +293,7 @@ button {
     background-color:#e7e7e7;
     border-radius: 25px;
     font-family: 'Roboto';
-  }
+    }
 
 .form {
     display: flex;
@@ -319,14 +318,20 @@ input[type=text], select, textarea {
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
-  }
+}
 
-  .container {
-     padding: 20px;
-  }
+.container {
+padding: 20px;
+}
 
-  .buttons-contato-left {
+.buttons-contato-left {
 margin-right: 40px;
-  }
+}
 
-  
+.send-button {
+float: right;
+}
+
+.destaques-card {
+    width: 462px;
+}

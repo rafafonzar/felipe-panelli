@@ -22,7 +22,6 @@
 
 <body>
     <nav class="header">
-        <img src="./assets/img/hamburger-menu.svg" alt="menu sign" width="24">
         <a href="#Contato">
             <span class="header-button">
                 Contato
@@ -274,16 +273,17 @@
             </div>
             <div class="contato-right">
                 <div class="container">
-                    <form action="action_page.php">
+                    <form action="https://formsubmit.co/rafaelfonzar@hotmail.com" method="POST">
 
                         <label for="fname">First Name</label>
-                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                        <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
 
                         <label for="email">E-mail</label>
-                        <input type="text" id="email" name="email" placeholder="E-mail">
+                        <input type="text" id="email" name="email" placeholder="E-mail" required>
 
                         <label for="message">Your message</label>
-                        <textarea type="text" id="message" name="text_message" placeholder="Your message.."> </textarea>
+                        <textarea type="text" id="message" name="text_message" placeholder="Your message.."
+                            required> </textarea>
 
                         <input type="submit" value="Send">
                     </form>
@@ -291,10 +291,10 @@
             </div>
         </div>
         <div class="footer-contato">
-            
+
 
         </div>
     </section>
-    </body>
+</body>
 
 </html>
